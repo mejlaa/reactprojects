@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import SearchFilter from "./Components/SearchFilter/index.jsx";
+import SimpleCounter from "./Components/SimpleCounter/index.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <SearchFilter />
+    <SimpleCounter />
   </React.StrictMode>
 );
