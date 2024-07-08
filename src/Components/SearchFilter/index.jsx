@@ -1,14 +1,14 @@
 import { useState } from "react";
-import SearchFilterInput from "./SearchFilterInput";
-import SearchFilterList from "./SearchFilterList";
+import SearchInput from "./SearchInput";
+import SearchList from "./SearchList";
 
 const SearchFilter = () => {
   const [searchValue, setSearchValue] = useState("");
 
   return (
     <div>
-      <SearchFilterInput value={searchValue} setValue={setSearchValue} />
-      <SearchFilterList search={searchValue} />
+      <SearchInput value={searchValue} setValue={setSearchValue} />
+      <SearchList search={searchValue} />
     </div>
   );
 };

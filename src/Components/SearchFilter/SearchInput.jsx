@@ -1,4 +1,4 @@
-const SearchFilterInput = (props) => {
+const SearchInput = (props) => {
   const { type, value, setValue } = props;
 
   return (
@@ -12,4 +12,4 @@ const SearchFilterInput = (props) => {
   );
 };
 
-export default SearchFilterInput;
+export default SearchInput;

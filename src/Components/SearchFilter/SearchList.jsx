@@ -1,4 +1,4 @@
-const SearchFilterList = (props) => {
+const SearchList = (props) => {
   const { search } = props;
 
   const list = [
@@ -27,4 +27,4 @@ const SearchFilterList = (props) => {
   );
 };
 
-export default SearchFilterList;
+export default SearchList;
