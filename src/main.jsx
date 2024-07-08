@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import SimpleCounter from "./Components/SimpleCounter/index.jsx";
+import TempControlApp from "./Components/TempControlApp/index.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <SimpleCounter />
+    <TempControlApp />
   </React.StrictMode>
 );

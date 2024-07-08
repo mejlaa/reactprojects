@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./style.css";
 
-const TempControlApp1 = () => {
+const TempControlApp = () => {
   const [temp, setTemp] = useState(10);
   const [tempColor, setTempColor] = useState("tempCold");
 
@@ -49,4 +49,4 @@ const TempControlApp1 = () => {
   );
 };
 
-export default TempControlApp1;
+export default TempControlApp;
